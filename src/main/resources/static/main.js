@@ -178,7 +178,7 @@ class AddComponent {
     }
 }
 AddComponent.ɵfac = function AddComponent_Factory(t) { return new (t || AddComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Service_service_service__WEBPACK_IMPORTED_MODULE_3__["ServiceService"])); };
-AddComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AddComponent, selectors: [["app-add"]], decls: 19, vars: 0, consts: [[1, "container", "col-md-6"], [1, "card"], [1, "card-header"], [1, "card-body"], ["action", ""], [1, "form-group"], ["for", "nombre"], ["type", "text", 1, "form-control"], ["nombre", ""], ["for", "apellidos"], ["apellidos", ""], [1, "btn", "btn-danger", 3, "click"]], template: function AddComponent_Template(rf, ctx) { if (rf & 1) {
+AddComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AddComponent, selectors: [["app-add"]], decls: 19, vars: 0, consts: [[1, "container", "col-md-6"], [1, "card"], [1, "card-header"], [1, "card-body"], ["action", ""], [1, "form-group"], ["for", "nombre"], ["type", "text", 1, "form-control"], ["nombre", ""], ["for", "apellidos"], ["apellidos", ""], [1, "btn", "btn-outline-success", "mt-5", 3, "click"]], template: function AddComponent_Template(rf, ctx) { if (rf & 1) {
         const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
@@ -353,7 +353,7 @@ class EditComponent {
     }
 }
 EditComponent.ɵfac = function EditComponent_Factory(t) { return new (t || EditComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Service_service_service__WEBPACK_IMPORTED_MODULE_3__["ServiceService"])); };
-EditComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: EditComponent, selectors: [["app-edit"]], decls: 17, vars: 2, consts: [[1, "container", "col-md-6"], [1, "card"], [1, "card-header"], [1, "card-body"], ["action", ""], [1, "form-group"], ["for", "nombre"], ["name", "nombre", "type", "text", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "apellido"], ["name", "apellido", "type", "text", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "btn", "btn-danger", 3, "click"]], template: function EditComponent_Template(rf, ctx) { if (rf & 1) {
+EditComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: EditComponent, selectors: [["app-edit"]], decls: 17, vars: 2, consts: [[1, "container", "col-md-6", "mt-5"], [1, "card"], [1, "card-header"], [1, "card-body"], ["action", ""], [1, "form-group"], ["for", "nombre"], ["name", "nombre", "type", "text", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "apellido"], ["name", "apellido", "type", "text", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "btn", "btn-danger", "mt-5", 3, "click"]], template: function EditComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
@@ -417,7 +417,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ListarComponent_tr_18_Template(rf, ctx) { if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "td");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -471,7 +471,7 @@ class ListarComponent {
     }
 }
 ListarComponent.ɵfac = function ListarComponent_Factory(t) { return new (t || ListarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_Service_service_service__WEBPACK_IMPORTED_MODULE_1__["ServiceService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-ListarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ListarComponent, selectors: [["app-listar"]], decls: 19, vars: 1, consts: [[1, "container", "mt-5"], [1, "card"], [1, "card-header"], [1, "card-body"], [1, "table", "table-hover"], ["class", "text-center", 4, "ngFor", "ngForOf"], [1, "text-center"], [1, "btn", "btn-outline-warning", 3, "click"], [1, "btn", "btn-outline-danger", 2, "margin-left", "10px", 3, "click"]], template: function ListarComponent_Template(rf, ctx) { if (rf & 1) {
+ListarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ListarComponent, selectors: [["app-listar"]], decls: 19, vars: 1, consts: [[1, "container", "mt-5"], [1, "card"], [1, "card-header"], [1, "card-body"], [1, "table", "table-hover"], [1, "text-center"], ["class", "text-center", 4, "ngFor", "ngForOf"], [1, "btn", "btn-outline-success", 3, "click"], [1, "btn", "btn-outline-danger", 2, "margin-left", "10px", 3, "click"]], template: function ListarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -481,7 +481,7 @@ ListarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "table", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "thead");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "thead", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "tr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "th");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "ID");
@@ -498,7 +498,7 @@ ListarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "tbody");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, ListarComponent_tr_18_Template, 12, 3, "tr", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, ListarComponent_tr_18_Template, 12, 3, "tr", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
